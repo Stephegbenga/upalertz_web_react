@@ -208,7 +208,7 @@ const Home = (props) => {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/upalerter"
+            href="https://www.instagram.com/upalertz"
             target="_blank"
             rel="noreferrer noopener"
             className="home-link4"
