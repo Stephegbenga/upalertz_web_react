@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react';
 
 import './style.css'
 import Home from './views/home'
@@ -13,6 +14,7 @@ const App = () => {
         <Route component={Home} exact path="/" />
         <Route component={Pricing} exact path="/pricing" />
       </div>
+      <Analytics />
     </Router>
   )
 }
